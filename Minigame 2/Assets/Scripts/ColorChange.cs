@@ -15,6 +15,7 @@ public class ColorChange : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //if (!other.CompareTag("Spell")) return;
         // Here, we are going to change the value of 'health',
         // and, as a result, change the color of the prop and the text above the prop.
 
